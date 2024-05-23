@@ -9,7 +9,7 @@ export default function Layout() {
       <Sidebar />
 
       <div className=" flex-1 bg-[#F5F7F8] rounded-[30px] m-3 shadow-lg overflow-y-auto">
-        <div className="sticky">
+        <div className="sticky z-10">
           <Header />
         </div>
 
